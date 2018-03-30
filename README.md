@@ -27,6 +27,10 @@ Currently implemented algorithms:
 
 Scaling centers and normalizes each dimension, which brings them all on the same scale. Some algorithms depend on that. Of the current algorithms only KNN and higher-order logistic regressions are affected by scaling of the data. Support vector machines also suffer, but the implementation in e1071 per default scales the data. Switching it off leads to very bad performance (actually it leads to an error, since the threshold of 0.5 does not lie within the cube).
 
+## Link to working app 
+
+This app is also hosted by the good people from RStudio. You can find it here: https://chralbers.shinyapps.io/machine-learning-visualisation/. Unfortunately, KNN crashes the app when grid size is set above 100.
+
 ## To-Do
 
 - Make GUI unresponsive during computation.
@@ -35,8 +39,8 @@ Scaling centers and normalizes each dimension, which brings them all on the same
 - Add Random Forest
 - Add neural network (nnet? Keras?)
 - Make it so that computing a new model does not redraw the whole plot, but just replaces the decision boundary. Hope is that this won't reset the view. If there are other ways, use them
-- Make option to use different datasets (linear, weakly nonlinear
-
+- Make option to use different datasets (linear, weakly nonlinear, ...?)
+- replace knn from library class with more efficient method.
 
 
 
