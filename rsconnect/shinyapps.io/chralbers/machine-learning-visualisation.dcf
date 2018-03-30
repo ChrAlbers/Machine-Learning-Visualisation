@@ -1,0 +1,10 @@
+name: machine-learning-visualisation
+title:
+username:
+account: chralbers
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 311729
+bundleId: 1294652
+url: https://chralbers.shinyapps.io/machine-learning-visualisation/
+when: 1522399226.77625
