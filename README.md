@@ -36,6 +36,7 @@ This app is also hosted by the good people from RStudio. You can find it here: h
 - Make GUI unresponsive during computation.
 - Add another Option: Compute Accuracy on training data using k-fold CV
 - Add description box to give some background information on the algorithm
+- Add simple Decision Tree
 - Add Random Forest
 - Add neural network (nnet? Keras?)
 - Make it so that computing a new model does not redraw the whole plot, but just replaces the decision boundary. Hope is that this won't reset the view. If there are other ways, use them
